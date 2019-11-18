@@ -1,7 +1,5 @@
 ---
-peers:
-    - aenode://pp_HdcpgTX2C1aZ5sjGGysFEuup67K9XiFsWqSPJs4RahEcSyF7X@node1:3015
-    - aenode://pp_28uQUgsPcsy7TQwnRxhF8GMKU4ykFLKsgf4TwDwPMNaSCXwWV8@node2:3015
+peers: []
 
 http:
   external:
@@ -28,10 +26,11 @@ chain:
     "2": 1
     "3": 2
     "4": 3
+  
 
 mining:
-  autostart: false
-  beneficiary: "ak_2mwRmUeYmfuW93ti9HMSUJzCk1EYcQEfikVSzgo6k2VghsWhgU"
+  autostart: true
+  beneficiary: "ak_A9fdTdBvsBpq7snU7KHNkz7dwVa45SBn3LBdDeZZFmYABaMPG"
   beneficiary_reward_delay: 2
   expected_mine_rate: 4000
   micro_block_cycle: 1000
@@ -43,3 +42,5 @@ mining:
 
 fork_management:
   network_id: "ae_devnet"
+
+
