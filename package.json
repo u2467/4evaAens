@@ -13,6 +13,6 @@
     "aeproject-lib": "1.0.2",
     "bignumber.js": "^9.0.0",
     "request": "^2.88.0",
-    "yarn": "1.19.1"
+    "yarn": "1.22.0"
   }
 }
